@@ -1,0 +1,76 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(39, 27, 27);
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/bg-home.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.hero .title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.hero .title h1 span {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+nav .navbar-brand{
+    font-weight: bolder;
+}
+.hero .title button {
+    width: 100px;
+}
+
+
+/* banner 2 promo */
+.banner2 .banner-wrapper {
+    background-color: rgb(173, 173, 173);
+}
+.banner2 .price {
+    width: 90%;
+}
+.banner2 .price .p {
+    font-size: 26px;
+}
+.banner2 .price .normal {
+    text-decoration: line-through !important;
+}
+.banner2 .price .promo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(41, 36, 36);
+}
+
+/* blog */
+.blog .card-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    
+}
+footer input {
+    background: none;
+    outline: black;
+    border: black;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+footer .sosmeditem a {
+    text-decoration: none;
+}
+
+.color-special {
+    background-color: rgb(103, 101, 101);
+}
